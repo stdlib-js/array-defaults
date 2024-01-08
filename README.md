@@ -45,30 +45,20 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/array-defaults
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var defaults = require( '@stdlib/array-defaults' );
+import defaults from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { get } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@esm/index.mjs';
 ```
 
 #### defaults()
@@ -125,10 +115,15 @@ The setting `name` corresponds to a flattened object path. For example, the sett
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var empty = require( '@stdlib/array-empty' );
-var dtype = require( '@stdlib/array-dtype' );
-var defaults = require( '@stdlib/array-defaults' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-empty@esm/index.mjs';
+import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@esm/index.mjs';
+import defaults from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@esm/index.mjs';
 
 var o = defaults();
 
@@ -149,6 +144,10 @@ console.log( dtype( x ) );
 
 x = empty( 10, o.dtypes.unsigned_integer );
 console.log( dtype( x ) );
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -180,7 +179,7 @@ console.log( dtype( x ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
