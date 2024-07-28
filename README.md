@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import defaults from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@deno/mod.js';
+import defaults from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@v0.3.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { get } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@deno/mod.js';
+import { get } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@v0.3.0-deno/mod.js';
 ```
 
 #### defaults()
@@ -119,7 +119,7 @@ The setting `name` corresponds to a flattened object path. For example, the sett
 ```javascript
 import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-empty@deno/mod.js';
 import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@deno/mod.js';
-import defaults from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@deno/mod.js';
+import defaults from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@v0.3.0-deno/mod.js';
 
 var o = defaults();
 
