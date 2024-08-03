@@ -2,9 +2,19 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2024-08-01)
+## 0.3.0 (2024-07-28)
+
+<section class="features">
+
+### Features
+
+-   [`50e2775`](https://github.com/stdlib-js/stdlib/commit/50e2775cfb5128c0e66cdc755ca459ac416c3481) - add boolean dtype support in `array/defaults` [(#2309)](https://github.com/stdlib-js/stdlib/pull/2309)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,7 +22,7 @@
 
 <details>
 
--   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
+-   [`50e2775`](https://github.com/stdlib-js/stdlib/commit/50e2775cfb5128c0e66cdc755ca459ac416c3481) - **feat:** add boolean dtype support in `array/defaults` [(#2309)](https://github.com/stdlib-js/stdlib/pull/2309) _(by Jaysukh Makvana, Athan Reines)_
 
 </details>
 
@@ -24,23 +34,14 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Jaysukh Makvana
 
 </section>
 
 <!-- /.contributors -->
-
-</section>
-
-<!-- /.release -->
-
-<section class="release" id="v0.3.0">
-
-## 0.3.0 (2024-07-28)
-
-No changes reported for this release.
 
 </section>
 
@@ -70,7 +71,42 @@ No changes reported for this release.
 
 ## 0.1.0 (2024-01-08)
 
-No changes reported for this release.
+<section class="features">
+
+### Features
+
+-   [`a325e94`](https://github.com/stdlib-js/stdlib/commit/a325e942075b3d7b7528988d18fb8248072d11ee) - add `array/defaults`
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`94a2383`](https://github.com/stdlib-js/stdlib/commit/94a238318c73272acb232ac6066f596e07a8752d) - **bench:** fix broken benchmarks _(by Athan Reines)_
+-   [`a325e94`](https://github.com/stdlib-js/stdlib/commit/a325e942075b3d7b7528988d18fb8248072d11ee) - **feat:** add `array/defaults` _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
