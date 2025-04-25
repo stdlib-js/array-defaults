@@ -2,6 +2,50 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-04-25)
+
+<section class="features">
+
+### Features
+
+-   [`6606a96`](https://github.com/stdlib-js/stdlib/commit/6606a96c6f200945d5506523f82f232538a2bc2d) - add index data type defaults
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`6606a96`](https://github.com/stdlib-js/stdlib/commit/6606a96c6f200945d5506523f82f232538a2bc2d) - **feat:** add index data type defaults _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2024-07-28)
