@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-defaults",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Default array settings.",
   "license": "Apache-2.0",
   "author": {
@@ -75,7 +75,6 @@
     "defaults",
     "settings"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
