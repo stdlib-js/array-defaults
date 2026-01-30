@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+defaults = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-defaults/tags). For example,
+
+```javascript
 defaults = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@v0.4.0-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var defaults = require( 'path/to/vendor/umd/array-defaults/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@v0.4.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -144,7 +149,7 @@ The setting `name` corresponds to a flattened object path. For example, the sett
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-empty@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@v0.4.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
