@@ -52,13 +52,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import defaults from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-defaults/tags). For example,
+
+```javascript
 import defaults from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@v0.4.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { get } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@v0.4.1-esm/index.mjs';
+import { get } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@esm/index.mjs';
 ```
 
 #### defaults()
@@ -128,7 +133,7 @@ The setting `name` corresponds to a flattened object path. For example, the sett
 
 import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-empty@esm/index.mjs';
 import dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@esm/index.mjs';
-import defaults from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@v0.4.1-esm/index.mjs';
+import defaults from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-defaults@esm/index.mjs';
 
 var o = defaults();
 
